@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootswatch: Flatly</title>
+    <title>Bootswatch: Default</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./css/bootstrap-flatly.css" media="screen">
+    <link id="currtheme" rel="stylesheet" href="./css/bootstrap.css" media="screen">
     <!-- <link rel="stylesheet" href="./css/custom.min.css"> -->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -18,7 +17,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="../" class="navbar-brand">Bootswatch/Bootstrap</a>
+          <a href="./" class="navbar-brand">Bootswatch</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -30,10 +29,24 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="themes">
-                <li><a href="../default/">Default</a></li>
+                <li><a href="javascript:;" name="">Default</a></li>
                 <li class="divider"></li>
-                <li><a href="../cerulean/">Cerulean</a></li>
-                <li><a href="../cosmo/">Cosmo</a></li>
+                <li><a href="javascript:;" name="-cerulean">Cerulean</a></li>
+                <li><a href="javascript:;" name="-cosmo">Cosmo</a></li>
+                <li><a href="javascript:;" name="-cyborg">Cyborg</a></li>
+                <li><a href="javascript:;" name="-darkly">Darkly</a></li>
+                <li><a href="javascript:;" name="-flatly">Flatly</a></li>
+                <li><a href="javascript:;" name="-journal">Journal</a></li>
+                <li><a href="javascript:;" name="-lumen">Lumen</a></li>
+                <li><a href="javascript:;" name="-paper">Paper</a></li>
+                <li><a href="javascript:;" name="-readable">Readable</a></li>
+                <li><a href="javascript:;" name="-sandstone">Sandstone</a></li>
+                <li><a href="javascript:;" name="-simplex">Simplex</a></li>
+                <li><a href="javascript:;" name="-slate">Slate</a></li>
+                <li><a href="javascript:;" name="-spacelab">Spacelab</a></li>
+                <li><a href="javascript:;" name="-superhero">Superhero</a></li>
+                <li><a href="javascript:;" name="-united">United</a></li>
+                <li><a href="javascript:;" name="-yeti">Yeti</a></li>
               </ul>
             </li>
           </ul>
@@ -46,9 +59,8 @@
 
       <div class="page-header" id="banner" style="margin:72px 0px 0px;">
         <div class="row">
-          <div class="col-xs-12">
-            <h1>Flatly</h1>
-            <p class="lead">Flat and modern</p>
+          <div class="col-xs-12 text-center">
+            <h1>Default Theme</h1>
           </div>
         </div>
       </div>
@@ -161,6 +173,6 @@
 
     <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <!-- <script src="./js/custom.js"></script> -->
+    <script src="./js/custom.js"></script>
 </body>
 </html>
