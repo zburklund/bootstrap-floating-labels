@@ -16,6 +16,5 @@ $(document).ready(function() {
 	currentlogo.mouseout(function(){
 		currentlogo.text(currenttitle[0].text);
 	});
-
-		
+	
 })
