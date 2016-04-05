@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link id="currtheme" rel="stylesheet" href="./css/bootstrap.css" media="screen">
-    <!-- <link rel="stylesheet" href="./css/custom.min.css"> -->
+    <link rel="stylesheet" href="./css/custom.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -17,7 +17,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="./" class="navbar-brand">Bootswatch</a>
+          <a href="./" class="navbar-brand">Bootswatch: Default</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -60,26 +60,20 @@
       <div class="page-header" id="banner" style="margin:72px 0px 0px;">
         <div class="row">
           <div class="col-xs-12 text-center">
-            <h1>Default Theme</h1>
+            <h1>Default Theme Form Inputs</h1>
           </div>
         </div>
       </div>
 
       <!-- Forms
       ================================================== -->
-      <div class="bs-docs-section">
-        <div class="row">
-          <div class="col-lg-12">
-              <h1 id="forms">Forms</h1>
-          </div>
-        </div>
-
+      <div class="bs-docs-section" style="margin-top:15px;">
         <div class="row">
           <div class="col-lg-6">
+            <h2 class="text-center">Horizontal Form</h2>
             <div class="well bs-component">
               <form class="form-horizontal">
                 <fieldset>
-                  <legend>Legend</legend>
                   <div class="form-group">
                     <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                     <div class="col-lg-10">
@@ -121,9 +115,10 @@
               </form>
             </div>
           </div>
-          <div class="col-lg-4 col-lg-offset-1">
-
-              <form class="bs-component">
+          <div class="col-lg-6">
+            <h2 class="text-center">Standard Form</h2>
+            <div class="well bs-component">
+              <form class="">
                 <div class="form-group">
                   <label class="control-label" for="inputSmall">Small input</label>
                   <input class="form-control input-sm" type="text" id="inputSmall">
@@ -154,7 +149,7 @@
                   <input type="text" class="form-control" id="inputSuccess">
                 </div>
               </form>
-
+            </div>
           </div>
         </div>
       </div>
